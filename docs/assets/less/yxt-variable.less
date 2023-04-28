@@ -1,0 +1,144 @@
+/**
+ *  变量命名规则：
+ *  yxt-: 固定前缀
+ *  color-: 主类型名...
+ *  type-: 附加类型名...
+ *  hex- / hexa- / rgb- / rgba- / gradient-: 色值模式
+ *  2e78ff / menu: 具体色值或用途（主要为后续替换主题准备，便于全局查找替换）
+ *
+ *  完整定义变量，如：
+ *  前缀-主类型-附类型-色值模式-用途
+ */
+
+// 如：
+@yxt-color-testprimary-hex-2e78ff: #2E78FF;
+@yxt-color-testprimary-rgb-menu: rgb(46, 120, 255);
+@yxt-color-testprimary-gradient-menu: linear-gradient(270deg, #3AA7FF 0%, #2044FF 100%);
+
+/**
+ * 基础配色
+ */
+@yxt-color-primary-hex-2e78ff: #2E78FF;
+@yxt-color-primary-hex-188fff: #188FFF;
+@yxt-color-primary-hex-1dbff7: #1DBFF7;
+@yxt-color-primary-hex-77b2e9: #77B2E9;
+@yxt-color-primary-hex-e0ebff: #E0EBFF;
+@yxt-color-primary-hexa-2e78ff80: #2E78FF80;
+@yxt-color-primary-hexa-2e78ff26: #2E78FF26;
+@yxt-color-primary-hexa-2e78ff14: #2E78FF14;
+@yxt-color-primary-hexa-2e78ff0a: #2E78FF0A;
+
+@yxt-color-success-hexa-53c419: #53C419;
+@yxt-color-success-hexa-8ae7b4: #8AE7B4;
+@yxt-color-success-hexa-e5f6dd: #E5F6DD;
+
+@yxt-color-error-hex-f5242c: #F5242C;
+@yxt-color-error-hex-ffa4a4: #FFA4A4;
+@yxt-color-error-hex-fedee0: #FEDEE0;
+
+@yxt-color-warning-hex-fa9513: #FA9513;
+@yxt-color-warning-hex-febb01: #FEBB01;
+@yxt-color-warning-hex-ffe58f: #FFE58F;
+@yxt-color-warning-hex-ffefdc: #FFEFDC;
+
+@yxt-color-info-hex-8f9399: #8F9399;
+@yxt-color-info-hex-d8dade: #D8DADE;
+@yxt-color-info-hex-f3f3f3: #F3F3F3;
+
+/**
+ * 文字颜色
+ */
+@yxt-color-font-hex-14203b: #14203B;
+@yxt-color-font-hex-2b364e: #2B364E;
+@yxt-color-font-hex-5a6275: #5A6275;
+@yxt-color-font-hex-898f9d: #898F9D;
+@yxt-color-font-hex-b8bcc4: #B8BCC4;
+@yxt-color-font-hex-dcdee2: #DCDEE2;
+@yxt-color-font-hex-edeef0: #EDEEF0;
+@yxt-color-font-hex-f6f6f7: #F6F6F7;
+@yxt-color-font-hex-fafbfb: #FAFBFB;
+@yxt-color-font-hex-fff: #FFFFFF;
+
+/**
+ * 可视化模块配色
+ */
+@yxt-color-echart-hex-f6bd16: #F6BD16;
+@yxt-color-echart-hex-51cbff: #51CBFF;
+@yxt-color-echart-hex-11c2c2: #11C2C2;
+@yxt-color-echart-hex-61ddaa: #61DDAA;
+@yxt-color-echart-hex-726afc: #726AFC;
+@yxt-color-echart-hex-b278fc: #B278FC;
+@yxt-color-echart-hex-9661bc: #9661BC;
+@yxt-color-echart-hex-f08bb4: #F08BB4;
+@yxt-color-echart-hex-65789b: #65789B;
+
+/**
+ * 渐变色
+ */
+@yxt-color-primary-gradient-card: linear-gradient(270deg, rgba(30, 47, 84, 0) 0%, rgba(30, 47, 84, 0.7) 100%);
+@yxt-color-primary-gradient-menus: linear-gradient(270deg, #3AA7FF 0%, #2044FF 100%);
+
+/**
+ * 阴影色
+ */
+@yxt-color-shadow-hexa-14203b14: #14203B14;
+
+/**
+ * 字体大小
+ * <body>标签设置font-size: 10px情况下，使用em
+ *  1em = 16px
+ */
+// em(推荐使用)
+@yxt-font-size-em-6: 0.375em;
+@yxt-font-size-em-7: 0.438em;
+@yxt-font-size-em-8: 0.5em;
+@yxt-font-size-em-9: 0.563em;
+@yxt-font-size-em-10: 0.625em;
+@yxt-font-size-em-11: 0.688em;
+@yxt-font-size-em-12: 0.75em;
+@yxt-font-size-em-13: 0.813em;
+@yxt-font-size-em-14: 0.875em;
+@yxt-font-size-em-15: 0.938em;
+@yxt-font-size-em-16: 1em;
+@yxt-font-size-em-17: 1.063em;
+@yxt-font-size-em-18: 1.125em;
+@yxt-font-size-em-19: 1.188em;
+@yxt-font-size-em-20: 1.25em;
+@yxt-font-size-em-21: 1.313em;
+@yxt-font-size-em-22: 1.375em;
+@yxt-font-size-em-23: 1.438em;
+@yxt-font-size-em-24: 1.5em;
+@yxt-font-size-em-26: 1.6em;
+@yxt-font-size-em-30: 1.8em;
+@yxt-font-size-em-32: 2em;
+@yxt-font-size-em-36: 2.25em;
+@yxt-font-size-em-48: 3em;
+@yxt-font-size-em-56: 3.5em;
+@yxt-font-size-em-70: 4.38em;
+// px
+@yxt-font-size-px-6: 6px;
+@yxt-font-size-px-7: 7px;
+@yxt-font-size-px-8: 8px;
+@yxt-font-size-px-9: 9px;
+@yxt-font-size-px-10: 10px;
+@yxt-font-size-px-11: 11px;
+@yxt-font-size-px-12: 12px;
+@yxt-font-size-px-13: 13px;
+@yxt-font-size-px-14: 14px;
+@yxt-font-size-px-15: 15px;
+@yxt-font-size-px-16: 16px;
+@yxt-font-size-px-17: 17px;
+@yxt-font-size-px-18: 18px;
+@yxt-font-size-px-19: 19px;
+@yxt-font-size-px-20: 20px;
+@yxt-font-size-px-21: 21px;
+@yxt-font-size-px-22: 22px;
+@yxt-font-size-px-23: 23px;
+@yxt-font-size-px-24: 24px;
+@yxt-font-size-px-26: 26px;
+@yxt-font-size-px-30: 30px;
+@yxt-font-size-px-32: 32px;
+@yxt-font-size-px-36: 36px;
+@yxt-font-size-px-48: 48px;
+@yxt-font-size-px-56: 56px;
+@yxt-font-size-px-70: 70px;

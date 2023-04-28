@@ -1,0 +1,88 @@
+@import url('./yxt-variable.less');
+
+// 强制不换行，超出部分显示省略号
+.mixin_ellipsis_more(@lines: 1;) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: @lines;
+  -webkit-box-orient: vertical;
+}
+
+// 圆角大小：默认2px，可传参自定义：(上左、上右、下左、下右)
+.mixin_radius_eq(@tl: 2px 2px; @tr: 2px 2px; @bl: 2px 2px; @br: 2px 2px;) {
+  border-top-left-radius: @tl;
+  border-top-right-radius: @tr;
+  border-bottom-left-radius: @bl;
+  border-bottom-right-radius: @br;
+}
+
+// 块元素阴影，默认：0 10px 20px 5px，可传参自定义：(偏移量、阴影颜色)
+.mixin_hover_shadow(@offset: 0 10px 20px 5px; @color: @yxt-color-shadow-hexa-14203b14) {
+  cursor: pointer;
+  box-shadow: @offset @color;
+}
+
+// 按钮样式 【深蓝底+白色字】
+.mixin_button_deepbg_lightfont(@bgcolor: @yxt-color-primary-hex-2e78ff; @color: @yxt-color-font-hex-fff; @radius: 2px) {
+  display: inline-block;
+  line-height: 32px;
+  font-size: 14px;
+  background-color: @bgcolor;
+  color: @color;
+  border: none;
+  border-radius: @radius;
+}
+
+// 按钮样式 【浅蓝底+深蓝字】
+.mixin_button_lightbg_deepfont(@bgcolor: @yxt-color-primary-hex-e0ebff; @color: @yxt-color-primary-hex-2e78ff; @radius: 2px) {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  background-color: @bgcolor;
+  color: @color;
+  border: none;
+  border-radius: @radius;
+}
+
+// 按钮样式 【浅白底+浅灰字】
+.mixin_button_lightbg_lightfont(@bgcolor: @yxt-color-info-hex-f3f3f3; @color: @yxt-color-font-hex-5a6275; @radius: 2px) {
+  display: inline-block;
+  line-height: 32px;
+  font-size: 14px;
+  background-color: @bgcolor;
+  color: @color;
+  border: none;
+  border-radius: @radius;
+}
+
+// absolute浮动块，若出现层级遮挡情况，在用到的地方使用z-index
+.mixin_absolute(@top: 0px, @right: 0px, @bottom: 0px, @left: 0px) {
+  position: absolute;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+}
+
+// fixed浮动块，若出现层级遮挡情况，在用到的地方使用z-index
+.mixin_fixed(@top: 0px, @right: 0px, @bottom: 0px, @left: 0px) {
+  position: fixed;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+}
+
+// iconfont 图标设置
+.mixin_circle_icon(@fontfamily: 'iconfont', @icon; @size: 16px; @color: @yxt-color-info-hex-8f9399) {
+  font-family: @fontfamily;
+  content: @icon;
+  font-size: @size;
+  color: @color;
+}
+
+// border渐变色
+.mixin_border_linear() {
+  border-image: linear-gradient(90deg, #0a101d 0%, #005eb9 25%, #1fc1ed 50%, #00408f 75%, #0a101d 100%) 5 5;
+}

@@ -1,0 +1,283 @@
+{
+  "routeInfo": {
+    "path": "/giud",
+    "name": "组件"
+  },
+  "context": {
+    "开发指南": [
+      {
+        "name": "index",
+        "path": "/",
+        "type": "pages"
+      },
+      {
+        "name": "giud",
+        "path": "/giud",
+        "desc": "介绍"
+      },
+      {
+        "name": "install",
+        "path": "/install",
+        "desc": "安装"
+      },
+      {
+        "name": "start",
+        "path": "/start",
+        "desc": "快速开始"
+      },
+      {
+        "name": "logs",
+        "path": "/logs",
+        "desc": "更新日志"
+      },
+      {
+        "name": "designtoken",
+        "path": "/designtoken",
+        "desc": "designtoken规范"
+      }
+    ],
+    "组件": [
+      {
+        "desc": "基础组件",
+        "path": "/component",
+        "items": [
+          {
+            "desc": "Card 卡片",
+            "name": "yxt_card",
+            "path": "/card"
+          },
+          {
+            "desc": "Form 表单",
+            "name": "yxt_form",
+            "path": "/form"
+          },
+          {
+            "desc": "Progress 进度条",
+            "name": "yxt_progress",
+            "path": "/progress"
+          },
+          {
+            "desc": "Steps 步骤条",
+            "name": "yxt_steps",
+            "path": "/steps"
+          },
+          {
+            "desc": "Image 图片",
+            "name": "yxt_imageView",
+            "path": "/imageView"
+          },
+          {
+            "desc": "PageHeader 页头",
+            "name": "yxt_pageHeader",
+            "path": "/pageHeader"
+          },
+          {
+            "desc": "PageFooter 页脚",
+            "name": "yxt_pageFooter",
+            "path": "/pageFooter"
+          },
+          {
+            "desc": "PageTitle 页标题",
+            "name": "yxt_pageTitle",
+            "path": "/pageTitle"
+          },
+          {
+            "desc": "Button 按钮",
+            "name": "to_button",
+            "path": "/button"
+          },
+          {
+            "desc": "Icon 图标",
+            "name": "yxt_icon",
+            "path": "/icon"
+          },
+          {
+            "desc": "Tabs 标签",
+            "name": "yxt_tabs",
+            "path": "/tabs"
+          },
+          {
+            "desc": "Timeline 时间线",
+            "name": "yxt_timeLine",
+            "path": "/timeLine"
+          },
+          {
+            "desc": "Carousel 走马灯",
+            "name": "yxt_carousel",
+            "path": "/carousel"
+          },
+          {
+            "desc": "Transfer 穿梭框",
+            "name": "yxt_transfer",
+            "path": "/transfer"
+          },
+          {
+            "desc": "Rate 评分",
+            "name": "yxt_rate",
+            "path": "/rate"
+          },
+          {
+            "desc": "Breadcrumb 面包屑",
+            "name": "yxt_breadcrumb",
+            "path": "/beadcrumb"
+          },
+          {
+            "desc": "Collapse 折叠面板",
+            "name": "yxt_collapse",
+            "path": "/collapse"
+          },
+          {
+            "desc": "Tree 树形控件",
+            "name": "yxt_tree",
+            "path": "/tree"
+          },
+          {
+            "desc": "Dialog 对话框",
+            "name": "yxt_dialog",
+            "path": "/dialog"
+          },
+          {
+            "desc": "Drawer 抽屉",
+            "name": "yxt_drawer",
+            "path": "/drawer"
+          },
+          {
+            "desc": "Table 表格",
+            "name": "yxt_table",
+            "path": "/table"
+          },
+          {
+            "desc": "Pagination 分页器",
+            "name": "yxt_pagination",
+            "path": "/pagination"
+          },
+          {
+            "desc": "Tooltip 分页器",
+            "name": "yxt_tooltip",
+            "path": "/tooltip"
+          }
+        ]
+      },
+      {
+        "desc": "表单组件",
+        "path": "/component",
+        "items": [
+          {
+            "desc": "Input 输入框",
+            "name": "to_input",
+            "path": "/input"
+          },
+          {
+            "desc": "InputNumber 数字输入框",
+            "name": "to_inputNumber",
+            "path": "/inputNumber"
+          },
+          {
+            "desc": "Select 选择器",
+            "name": "to_select",
+            "path": "/select"
+          },
+          {
+            "desc": "TimePicker 时间选择器",
+            "name": "to_timePicker",
+            "path": "/timePicker"
+          },
+          {
+            "desc": "DatePicker 日期选择器",
+            "name": "to_datePicker",
+            "path": "/datePicker"
+          },
+          {
+            "desc": "DateTimePicker 日期时间选择器",
+            "name": "to_datetimePicker",
+            "path": "/datetimePicker"
+          },
+          {
+            "desc": "Upload 上传",
+            "name": "to_upload",
+            "path": "/upload"
+          },
+          {
+            "desc": "Cascader 级联选择器",
+            "name": "yxt_cascader",
+            "path": "/cascader"
+          },
+          {
+            "desc": "Codemirror SQL编辑器",
+            "name": "yxt_codemirror",
+            "path": "/codemirror"
+          }
+        ]
+      },
+      {
+        "desc": "业务组件",
+        "path": "/component",
+        "items": [
+          {
+            "desc": "BissBaseTable 表格扩展",
+            "name": "yxt_bissBaseTable",
+            "path": "/bissBaseTable"
+          },
+          {
+            "desc": "BissItemTitle 标题扩展",
+            "name": "yxt_bissItemTitle",
+            "path": "/bissItemTitle"
+          },
+          {
+            "desc": "MeetingTime 会议时间控件",
+            "name": "yxt_meetingTime",
+            "path": "/meetingTime"
+          }
+        ]
+      },
+      {
+        "desc": "门户小组件",
+        "path": "/component",
+        "items": [
+          {
+            "desc": "GridLayout 门户动态布局",
+            "name": "yxt_gridLayout",
+            "path": "/gridLayout"
+          },
+          {
+            "desc": "BissApps 应用",
+            "name": "yxt_biss_apps",
+            "path": "/biss_apps"
+          }
+        ]
+      },
+      {
+        "desc": "视图组件",
+        "path": "/component",
+        "items": [
+          {
+            "desc": "result 反馈状态",
+            "name": "yxt_result",
+            "path": "/result"
+          },
+          {
+            "desc": "empty 空状态",
+            "name": "yxt_empty",
+            "path": "/empty"
+          },
+          {
+            "desc": "skeleton 骨架屏",
+            "name": "base_skeleton",
+            "path": "/skeleton"
+          }
+        ]
+      },
+      {
+        "desc": "通知",
+        "path": "/component",
+        "items": [
+          {
+            "desc": "message 短提示/通知",
+            "name": "yxt_message",
+            "path": "/message"
+          }
+        ]
+      }
+    ]
+  }
+}

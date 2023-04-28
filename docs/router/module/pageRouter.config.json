@@ -1,0 +1,40 @@
+{
+  "routeInfo": {
+    "path": "/biss_table",
+    "name": "典型页面"
+  },
+  "context": {
+    "超级组件": [
+      {
+        "desc": "典型页面",
+        "path": "/common_pages",
+        "items": [
+          {
+            "path": "/biss_table",
+            "name": "yxt_biss_table",
+            "desc": "查询表格",
+            "icon": "menu01.png"
+          },
+          {
+            "path": "/biss_detail",
+            "name": "yxt_biss_detail",
+            "desc": "详情页",
+            "icon": "menu02.png"
+          },
+          {
+            "path": "/biss_form",
+            "name": "yxt_biss_form",
+            "desc": "高级表单",
+            "icon": "menu03.png"
+          },
+          {
+            "path": "/yxt_empty",
+            "name": "yxt_empty",
+            "desc": "空页 && 结果页",
+            "icon": "menu03.png"
+          }
+        ]
+      }
+    ]
+  }
+}

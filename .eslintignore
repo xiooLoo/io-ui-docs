@@ -1,0 +1,6 @@
+/build/
+build/*.js
+/dist/
+/frameworks/
+/test/unit/coverage/
+/testF/
